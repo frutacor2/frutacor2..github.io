@@ -61,6 +61,8 @@ input[type=text] {
 
 input[type=text].input-field-1 {
   display: inline;
+  background-color: #c8c8c8;
+  color: #000;
   font-family: 'Oswald', cursive;
 }
 
@@ -168,6 +170,8 @@ input[type=email] {
 
 input[type=email].email-field-1 {
   border-bottom-color: rgba(242, 242, 242, .15);
+  background-color: #c8c8c8;
+  color: #000;
   font-family: 'Oswald', cursive;
 }
 
@@ -208,9 +212,9 @@ input[type=tel].phone-number-field-1 {
   border-bottom: .0625rem solid rgba(242, 242, 242, .15);
   border-left-width: 0;
   border-radius: 0;
-  background-color: transparent;
+  background-color: #c8c8c8;
   box-shadow: none;
-  color: #fff;
+  color: #000;
   font-family: 'Oswald', cursive;
   line-height: 21px;
   -webkit-transition-delay: 0s;
@@ -238,27 +242,29 @@ input[type=tel].phone-number-field-1:focus {
 
 label.label.label-1 {
   background-color: transparent;
-  color: #fff;
-  font-weight: 300;
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-variant: normal;
   font-size: 15px;
-  font-family: 'Oswald', cursive;
+  font-family: 'Montserrat', cursive;
 }
 
 label.label.label-2 {
   background-color: transparent;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 15px;
-  font-family: 'Oswald', cursive;
+  font-family: 'Montserrat', cursive;
 }
 
 label.label.label-3 {
   background-color: transparent;
-  color: #fff;
-  font-weight: 300;
+  color: #000;
+  font-weight: 400;
   font-size: 15px;
-  font-family: 'Oswald', cursive;
+  font-family: 'Montserrat', cursive;
 }
 
 /* Layout Elements */
@@ -324,7 +330,7 @@ body.body-1 {
   min-width: 10px;
   min-height: 330px;
   height: 100px;
-  background-color: #fd6e66;
+  background-color: #eaeae7;
   background-image: url('../teste.png');
   background-attachment: local;
   background-position: center center;
@@ -359,7 +365,7 @@ body.body-1 {
   min-width: 10px;
   min-height: 330px;
   height: 100px;
-  background-color: #fd6e66;
+  background-color: #eaeae7;
 
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -384,10 +390,11 @@ button.action.button {
 
 button.button {
   margin-bottom: 0;
+  border-color: #252525;
   background-color: #ebebeb;
   color: #252525;
   font-size: 16px;
-  font-family: 'Oswald', cursive;
+  font-family: 'Montserrat', cursive;
 }
 
 button.action.button.expanded {
